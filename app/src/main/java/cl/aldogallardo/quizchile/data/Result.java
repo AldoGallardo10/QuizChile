@@ -1,7 +1,5 @@
 package cl.aldogallardo.quizchile.data;
 
-import cl.aldogallardo.quizchile.R;
-
 /**
  * Created by Aldo Gallardo on 11-02-2017.
  */
@@ -60,15 +58,15 @@ public class Result extends Answer {
 
     public int responseImage(){
         if (response =="0%"){
-            imageResponse = R.drawable.gringo;
+
         }else if (response == "25%"){
-            imageResponse = R.drawable.argentino;
+
         }else if (response == "50%"){
-            imageResponse = R.drawable.reality;
+
         }else if (response == "75%" ){
-            imageResponse = R.drawable.fabrizio;
+
         }else if (response == "100%"){
-            imageResponse = R.drawable.huaso;
+
 
         }
 
