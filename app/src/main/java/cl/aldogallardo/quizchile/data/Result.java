@@ -51,9 +51,9 @@ public class Result extends Answer {
         }else if (response == "50%"){
             textResponse = "Eres de Reality, vienes de afuera pero estás viviendo en Chile, no sabes si te quedarás.";
         }else if (response == "75%" ){
-            textResponse = "vives hace un buen tiempo en nuestro pais, estás esperando el tramite para nacionalizarte chileno.";
+            textResponse = "Vives hace un buen tiempo en nuestro pais, estás esperando el tramite para nacionalizarte chileno.";
         }else if (response == "100%"){
-            textResponse = "Mas chileno que los porotos, Celebraste con llantos las dos copas americas contra los argentinos.";
+            textResponse = "Más chileno que los porotos, Celebraste con llantos las dos copas americas contra los argentinos.";
         }
         return textResponse;
     }
