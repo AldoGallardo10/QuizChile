@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">QuizChile</string>
+    <string name="action_settings">Settings</string>
+    <string name="start">Comenzar</string>
+    <string name="Chileno">¿Que tan chileno eres?</string>
+
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="oneQuestion">Primera pregunta</string>
+    <string name="twoQuestion">Segunda pregunta</string>
+    <string name="threeQuestion">Tercera pregunta</string>
+    <string name="fourQuiestion">Cuarta pregunta</string>}
+    <string name="result">Resultado</string>
+    <string name="question1">¿Cúal es el baile tipico de Chile?</string>
+    <string name="question2">¿Qué animales aparecen en el escudo nacional?</string>
+    <string name="question3">¿Dónde le pegaron el combo al guatón Loyola?</string>
+    <string name="question4">¿Qué año se hizo el Mundial de Fútbol en Chile?</string>
+    <string name="siguiente">Siguente</string>
+    <string name="title_activity_result">ResultActivity</string>
+
+
+</resources>

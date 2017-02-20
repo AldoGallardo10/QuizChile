@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/content_main"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="56sp"
+            android:layout_gravity="center"
+            android:id="@+id/resultTv"
+            android:layout_marginTop="80dp"
+            android:text="100%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_margin="8dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/resultIv"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:civ_border_width="1dp"
+        app:civ_border_color="@android:color/white"/>
+
+    <TextView
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:id="@+id/textResponseTv"
+        android:text="respuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+

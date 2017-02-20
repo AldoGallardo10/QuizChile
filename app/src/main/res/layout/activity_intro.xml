@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.aldogallardo.quizchile.view.Question1Activity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="103dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:text="@string/Chileno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp"
+        android:text="@string/start"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="139dp"
+        android:id="@+id/startBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
