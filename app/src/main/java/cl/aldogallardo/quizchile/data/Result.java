@@ -60,15 +60,15 @@ public class Result extends Answer {
 
     public int responseImage(){
         if (response =="0%"){
-
+            imageResponse = R.mipmap.img_trump;
         }else if (response == "25%"){
             imageResponse = R.mipmap.img_argentino;
         }else if (response == "50%"){
-
+            imageResponse = R.mipmap.img_reality;
         }else if (response == "75%" ){
-
+            imageResponse = R.mipmap.img_fabrizio;
         }else if (response == "100%"){
-
+            imageResponse = R.mipmap.img_huaso;
 
         }
 
